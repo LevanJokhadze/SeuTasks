@@ -49,8 +49,8 @@ console.log(task2_3(5.5));
 
 console.log(task2_4(5.5, 1));
 
-console.log(task2_5);
+console.log(task2_5());
 
-console.log(task2_6);
+console.log(task2_6());
 
 console.log(task2_7(5, 50));
