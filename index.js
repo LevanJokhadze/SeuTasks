@@ -41,6 +41,33 @@ function task2_7(a, b)
     return Math.floor(Math.random() * (b - a + 1)) + a;
 }
 
+function task2_8(a, b)
+{
+    return Math.random() * (b - a + 1) + a;
+}
+
+function task2_9(a, b)
+{
+    let arr = [];
+    for (i = 0; i < 10; i++) 
+    {
+        arr.push(Math.random() * (b - a + 1) + a);
+    }
+
+    return arr;
+}
+
+function task2_10(a, b, c)
+{
+    let arr = [];
+    for (i = 0; i < c; i++) 
+    {
+        arr.push(Math.random() * (b - a + 1) + a);
+    }
+
+    return arr;
+}
+
 console.log(task2_1(6.3));
 
 console.log(task2_2(6.7));
@@ -54,3 +81,9 @@ console.log(task2_5());
 console.log(task2_6());
 
 console.log(task2_7(5, 50));
+
+console.log(task2_8(5, 50));
+
+console.log(task2_9(5, 50));
+
+console.log(task2_10(5, 50, 6));
